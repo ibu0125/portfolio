@@ -1,0 +1,47 @@
+.login-container {
+  max-width: 400px; /* 最大幅を設定 */
+  margin: 50px auto; /* 上下のマージンを追加し、中央に配置 */
+  padding: 20px;
+  background-color: #f9f9f9; /* 背景色を薄い色に */
+  border-radius: 8px; /* 角を丸く */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 影を追加 */
+  text-align: center; /* テキストを中央に配置 */
+}
+
+h2 {
+  color: #333; /* テキストの色を設定 */
+  margin-bottom: 20px; /* 下部マージンを追加 */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column; /* 縦方向に配置 */
+}
+
+.login-input {
+  padding: 10px; /* パディングを追加 */
+  margin: 10px 0; /* 上下のマージンを追加 */
+  border: 1px solid #ccc; /* ボーダーを設定 */
+  border-radius: 4px; /* 角を少し丸く */
+  font-size: 16px; /* フォントサイズを設定 */
+}
+
+.login-input:focus {
+  border-color: #007bff; /* フォーカス時のボーダー色を変更 */
+  outline: none; /* フォーカス時のアウトラインを消す */
+}
+
+.login-button {
+  padding: 10px; /* パディングを追加 */
+  background-color: #007bff; /* ボタンの背景色 */
+  color: white; /* ボタンの文字色 */
+  border: none; /* ボーダーをなしに */
+  border-radius: 4px; /* 角を丸く */
+  font-size: 16px; /* フォントサイズを設定 */
+  cursor: pointer; /* カーソルをポインターに */
+  transition: background-color 0.3s; /* ホバー時のトランジションを追加 */
+}
+
+.login-button:hover {
+  background-color: #0056b3; /* ホバー時の背景色 */
+}

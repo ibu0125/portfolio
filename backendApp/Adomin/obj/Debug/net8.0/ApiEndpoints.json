@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "backendApp.Controllers.AdominController",
+    "Method": "AdominLogin",
+    "RelativePath": "api/Adomin/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "adomin",
+        "Type": "backendApp.Models.UserInformation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,8 @@
+﻿# Node.js関連
+node_modules/
+package-lock.json
+
+# Visual Studio関連
+.vs/
+
+.env
