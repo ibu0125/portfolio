@@ -1,0 +1,63 @@
+/* AdminDashboard.css */
+
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Helvetica Neue", sans-serif; /* フォントを変更 */
+  color: #333;
+  background-color: #f0f4f8;
+  border-radius: 12px; /* 角を少し大きく */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* 影を強調 */
+}
+
+.header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #007bff;
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.contact-list {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-weight: bold; /* 太字を強調 */
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s; /* アニメーション効果を追加 */
+}
+
+button:hover {
+  background-color: #218838;
+  transform: scale(1.05); /* ホバー時に少し大きくする */
+}

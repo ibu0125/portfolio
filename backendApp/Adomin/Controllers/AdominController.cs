@@ -95,7 +95,7 @@ namespace backendApp.Controllers {
 
             var token = new JwtSecurityToken(
                 issuer: "http://localhost:5165/api/adomin/login",
-                audience: "http://localhost:3000/",
+                audience: "http://localhost:3001/",
                 claims: claims,
                 expires: DateTime.UtcNow.AddSeconds(3),
                 signingCredentials: creds

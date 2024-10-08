@@ -29,7 +29,7 @@ builder.Services.AddAuthentication(options =>
         ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
         ValidIssuer = "http://localhost:5165", // ”­sŒ³URL
-        ValidAudience = "http://localhost:3000", // óMÒURL
+        ValidAudience = "http://localhost:3001", // óMÒURL
     };
 });
 

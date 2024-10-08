@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "FormBackend.Controllers.FormListController",
+    "Method": "DataGet",
+    "RelativePath": "api/FormList/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FormBackend.Controllers.FormListController",
+    "Method": "FormList",
+    "RelativePath": "api/FormList/post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "FromBackend.Models.FormData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

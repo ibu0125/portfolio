@@ -1,0 +1,35 @@
+.contact-list-container {
+  max-width: 800px; /* 最大幅を設定 */
+  margin: 20px auto; /* 上下のマージンを追加し、中央に配置 */
+  padding: 20px;
+  background-color: #f9f9f9; /* 背景色を薄い色に */
+  border-radius: 8px; /* 角を丸く */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 影を追加 */
+}
+
+h2 {
+  text-align: center; /* 中央に配置 */
+  color: #333; /* テキストの色を設定 */
+}
+
+.error-message {
+  color: red; /* エラーメッセージを赤色に */
+  text-align: center; /* 中央に配置 */
+}
+
+.contact-list {
+  list-style: none; /* リストのスタイルをなしに */
+  padding: 0; /* パディングをなしに */
+}
+
+.contact-item {
+  padding: 15px; /* 各アイテムのパディング */
+  margin: 10px 0; /* アイテム間のマージン */
+  background-color: #fff; /* 各アイテムの背景色 */
+  border-radius: 5px; /* 角を少し丸く */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* アイテムに影を追加 */
+}
+
+.contact-item strong {
+  color: #007bff; /* 太字の色を青に */
+}

@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+}
+
+svg {
+  border-radius: 0.6rem 0.6rem 0 0;
+}
+
+.head-line {
+  color: white;
+  display: flex;
+  font-size: 1.7rem;
+  margin-bottom: 10%;
+  margin-top: 20%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.card:nth-child(1),
+.card:nth-child(4) {
+  margin-left: 15px;
+}
+
+.card:nth-child(3),
+.card:nth-child(6) {
+  margin-right: 15px;
+}
+
+.card-text {
+  color: black;
+  margin: 10px;
+}
+
+.card-body {
+  min-width: 0;
+  height: 120px;
+  padding: 1rem;
+}
+
+.main-contents-wrapper {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center; /* 水平中央揃え */
+  justify-content: space-between;
+  width: 100%;
+  /* max-width: 600px; */
+  z-index: 3;
+  flex-wrap: wrap;
+  height: auto; /* コンテンツの高さに応じて調整 */
+  /* margin-top: 50px; */
+  padding: 50px 50px;
+  box-sizing: border-box; /* パディングを含めたボックスサイズにする */
+}
+.card {
+  border-radius: 0.6rem;
+  background-clip: border-box;
+  border: solid 1px rgba(0, 0, 0, 0.125);
+  flex-basis: calc(33.3%-10px);
+  margin-bottom: 15%;
+  z-index: 4;
+  background-color: #f0f0f0;
+  opacity: 1;
+  box-sizing: border-box;
+  width: 15rem;
+}
+.card-img-top {
+  width: 100%;
+  height: 150px;
+  z-index: 3;
+}
+
+rect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.6rem;
+}
+
+.profile-content1 {
+  position: relative;
+  display: flex;
+}
+
+.profile-content2 {
+  position: relative;
+  margin-top: 100px;
+  bottom: 0;
+}
+
+.profile-content {
+  height: 100%;
+  position: relative;
+  z-index: 3;
+  padding: 50px 50px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-img {
+  border: solid 1px rgba(240, 237, 237, 0.982);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.my-profile {
+  height: 100%;
+}
+
+.profile-text {
+  color: white;
+  font-size: 1.2rem;
+  margin: 0 15px;
+}
+
+.profile-text-1 text {
+  padding: 0 15px;
+}
+
+.my-skill-set {
+  padding: 50px 50px;
+  /* padding-right: 100px; */
+  position: relative;
+}
+
+.skill-icon {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.skill-evaluation {
+  width: 100px;
+  height: 15px;
+  object-fit: cover;
+}
+.skill-text {
+  color: white;
+}
+
+.skill-container {
+  display: flex;
+  position: relative;
+  /* justify-content: space-between; */
+}
+
+.skill-title {
+  color: white;
+}
+
+.skill-expl {
+  margin-left: 15%;
+  margin-bottom: 50px;
+}
+
+.skill-user {
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-right: 15%;
+}
+
+.my-career {
+  margin-bottom: 20%;
+}
+.section-interns {
+  margin: 50px;
+}
+
+.section-part-time-job {
+  margin: 50px;
+}
+
+.section-headline {
+  color: white;
+  font-size: 1.2rem;
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+
+.career-caption {
+  color: white;
+  position: relative;
+  line-height: 1.5; /* 行間を調整 */
+  white-space: pre-wrap; /* 改行を尊重しつつ、長い単語で折り返しが発生しないようにする */
+  word-break: break-word; /* 単語の途中で改行されるのを防ぐ */
+  overflow-wrap: break-word;
+  letter-spacing: 0.1em;
+}
+
+.contact-form {
+  margin-top: 10%;
+}

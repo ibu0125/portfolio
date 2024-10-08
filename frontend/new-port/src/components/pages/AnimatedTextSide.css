@@ -1,0 +1,14 @@
+.animation-wrapper {
+  /* display: inline-block; */
+  text-align: center; /* 文字を中央に揃える */
+  margin: auto; /* 中央揃え */
+}
+
+.text {
+  color: white;
+  font-size: 2rem;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 5px;
+}
