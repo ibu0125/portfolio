@@ -1,0 +1,5 @@
+database/
+# .gitignore に追加
+node_modules/
+*.log
+*.tmp
